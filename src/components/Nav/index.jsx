@@ -21,6 +21,18 @@ export default function Nav() {
         }
     },[])
 
+    // handle on-change wallet
+    useEffect(() => {
+        if (window.ethereum) {
+            window.ethereum.on("chainChanged", () => {
+                window.location.reload();
+            });
+            window.ethereum.on("accountsChanged", () => {
+                window.location.reload();
+            });
+        }
+    });
+
     return (
         <nav className="sc-kJNqyW dNeGhK">
             <div className="sc-jHcXXw sc-bQCEYZ eOSeYq hhtRpX">
