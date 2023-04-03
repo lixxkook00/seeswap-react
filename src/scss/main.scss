@@ -36,6 +36,15 @@ a:hover{
     width: 100%;
 }
 
+/* Mobile Only */
+@media (max-width: 739px) {
+    .main{
+        margin-left: 0 !important;
+        max-width: 100% !important;
+        width: 100%;
+    }
+}
+
 .trade-nav{
     display: flex;
     align-items: center;

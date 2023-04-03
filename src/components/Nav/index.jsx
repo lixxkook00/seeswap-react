@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import { connectWallet } from '../../utils/connectWalllet'
 import truncateEthAddress from 'truncate-eth-address'
+import { useDispatch, useSelector } from 'react-redux';
+import { hiddenSideBar, showSideBar } from '../../actions';
 
 export default function Nav() {
 
-    const [walletAddress, setWalletAddress] = useState(window.ethereum.selectedAddress)
+    const [walletAddress, setWalletAddress] = useState(window?.ethereum?.selectedAddress === undefined ? null : window.ethereum.selectedAddress)
+
+    const dispatch = useDispatch();
 
     const handleConnect = async () => {
-        console.log("check")
         await connectWallet(setWalletAddress)
     }
 
@@ -16,7 +19,7 @@ export default function Nav() {
         if (window.ethereum){
             connectWallet(setWalletAddress)
         }
-        if (window.ethereum && window.ethereum.selectedAddress) {
+        if (window?.ethereum && window?.ethereum?.selectedAddress) {
             setWalletAddress(window.ethereum.selectedAddress);
         }
     },[])
@@ -33,10 +36,18 @@ export default function Nav() {
         }
     });
 
+    const sideBarStatus = useSelector(state => state.sideBar)
+
+    // handle side bar
+    const handleSideBar = () => {
+        console.log("sideBarStatus",sideBarStatus)
+        sideBarStatus === true ? dispatch(hiddenSideBar()) : dispatch(showSideBar())
+    }
+
     return (
         <nav className="sc-kJNqyW dNeGhK">
             <div className="sc-jHcXXw sc-bQCEYZ eOSeYq hhtRpX">
-                <button className="sc-xGAEC dNLokW sc-iuImSO jJhdMY" aria-label="Toggle menu" scale="md">
+                <button onClick={() => handleSideBar()} className="sc-xGAEC dNLokW sc-iuImSO jJhdMY" aria-label="Toggle menu" scale="md">
                     <i className="fa-solid fa-bars"></i>
                 </button>
                 <a aria-label="Pancake home page " className="sc-EhTUr eYutoQ" href="/">

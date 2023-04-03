@@ -19,10 +19,40 @@
         flex-direction: column;
 
         margin: 40px;
+
+        box-shadow: 0px 2px 12px -8px rgba(25,19,38,0.1), 0px 1px 1px rgba(25,19,38,0.05);
     }
 
     &-icon{
         margin-bottom: 20px;
+
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #ECF7FD;
+
+        transition: all 0.1s ease-in-out;
+
+        i:nth-child(2){
+            display: none;
+        }
+
+        i{
+            transition: all 0.2s ease-in-out;
+        }
+
+        &:hover{
+            cursor: pointer;
+            background-color: #1677BC;
+            color: #fff;
+
+            i:nth-child(1){
+                display: none;
+            }
+            i:nth-child(2){
+                display: block;
+            }
+        }
     }
 
     &-btn{
@@ -76,7 +106,7 @@
         color: #1677BC;
 
         &-text{
-            margin-bottom: 20px;
+            // margin-bottom: 20px;
         }
 
         &-value{
@@ -93,7 +123,8 @@
         &-select{
 
             &-icon{
-                width: 30px;
+                width: 24px;
+                margin-right: 6px;
             }
 
             &-name{
@@ -105,5 +136,33 @@
                 }
             }
         }
+    }
+
+}
+/* Mobile Only */
+@media (max-width: 739px) {
+    .swap{
+        align-items: flex-start;
+        
+        &-wrapper{
+            margin: 0;
+        }
+
+        &-content,
+        &-title{
+            padding: 20px;
+        }
+
+        &-img{
+            display: none;
+        }
+    }
+
+    .trade-nav{
+        margin: 20px 0;
+    }
+
+    .dNLokW{
+        margin-right: 0 !important;
     }
 }

@@ -3,8 +3,6 @@ import './Home.scss'
 
 export default function Home() {
 
-
-
   return (
     <div className="swap">
         <div className="container">
@@ -42,38 +40,37 @@ export default function Home() {
                             </div>
                         <div className="swap-content w-100">
                             <div className="swap-block">
-                                <div className="swap-block-text">
-                                    From
-                                </div>
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <div className="swap-block-value">
-                                        <input type="text" placeholder='0.0'/>
+                                <div className="d-flex align-items-center justify-content-between pb-3">
+                                    <div className="swap-block-text">
+                                        From
                                     </div>
 
                                     <div className="swap-block-select d-flex align-items-center">
                                         <div className="swap-block-select-icon">
-                                            <img src="./images/logo.png" alt="" />
+                                            <img src="./images/tokens/bnb.png" alt="" />
                                         </div>
                                         <div className="swap-block-select-name d-flex align-items-center">
                                             BNB <i className="fa-solid fa-angle-down"></i>
                                         </div>
                                     </div>                                    
                                 </div>
+                                <div className="swap-block-value">
+                                    <input type="text" placeholder='0.0'/>
+                                </div>
                             </div>
 
-                            <div className="swap-icon centering">
-                                <i className="fa-solid fa-arrow-down"></i>
+                            <div className="centering">
+                                <div className="swap-icon centering">
+                                    <i className="fa-solid fa-arrow-down"></i>
+                                    <i className="fa-solid fa-arrows-up-down"></i>
+                                </div>
                             </div>
 
                             <div className="swap-block">
-                                <div className="swap-block-text">
-                                    To
-                                </div>
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <div className="swap-block-value">
-                                        <input type="text" placeholder='0.0'/>
+                                <div className="d-flex align-items-center justify-content-between pb-3">
+                                    <div className="swap-block-text">
+                                        To
                                     </div>
-
                                     <div className="swap-block-select d-flex align-items-center">
                                         <div className="swap-block-select-icon">
                                             {/* <img src="./images/logo.png" alt="" /> */}
@@ -82,6 +79,9 @@ export default function Home() {
                                             Select a currency <i className="fa-solid fa-angle-down"></i>
                                         </div>
                                     </div>                                    
+                                </div>
+                                <div className="swap-block-value">
+                                    <input type="text" placeholder='0.0'/>
                                 </div>
                             </div>
 
