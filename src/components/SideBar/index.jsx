@@ -52,7 +52,7 @@ export default function SideBar() {
             <div className="balance">
                 <img className="balance-logo" src="./images/logo.png" />
                 <div className="balance-value">
-                    $0.045
+                    $0.0
                 </div>
             </div>
             <div className="social">

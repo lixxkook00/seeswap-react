@@ -1,3 +1,4 @@
+import Web3 from "web3";
 
 export async function connectWallet(setWalletAddress) {
     if(window.ethereum){
@@ -14,6 +15,13 @@ export async function connectWallet(setWalletAddress) {
                 //     // navigate('/')
                 // }
                 setWalletAddress(window.ethereum.selectedAddress)
+
+                let web3 = new Web3('https://babel-api.testnet.iotex.io');
+                const result = await web3.eth.getBalance(window.ethereum.selectedAddress);
+                console.log("result",result);
+                const resultFormated = web3.utils.fromWei(result);
+                console.log("resultFormated",resultFormated);
+
                 return window.ethereum.selectedAddress;
             }
         } catch (error) {
