@@ -12,7 +12,7 @@ export default function SideBar() {
     const sideBarStatus = useSelector(state => state.sideBar)
 
     return (
-        <div className={`sidebar ${sideBarStatus && "show"}`}>
+        <div className={`sidebar ${sideBarStatus ? "show" : ""}`}>
             <div className="overlay" onClick={() => dispatch(hiddenSideBar())}></div>
             <div className="sidebar-content">
                 <div className="sidebar-item">

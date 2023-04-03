@@ -163,6 +163,23 @@
     &-bottom{
         padding: 10px !important;
     }
+
+    &.show{
+        width: 47px;
+
+        .balance,
+        .social{
+            display: none;
+        }
+
+        .sidebar-item a{
+            padding: 0 13px;
+        }
+
+        .sidebar-item i{
+            margin-right: 16px;
+        }
+    }
 }
 
 .balance{
