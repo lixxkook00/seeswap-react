@@ -80,7 +80,7 @@ export default function FarmHistory() {
                                                 <img src="/images/farms/ssg-bnb.png" alt="icon" className="sc-iwajpm ikqMKG" />    
                                             </div>
                                             <div>
-                                                <div color="text" className="sc-gtsrHT dgqbMR">SSG-BNB</div>
+                                                <div color="text" className="sc-gtsrHT dgqbMR">SEF-BNB</div>
                                             </div>
                                             </div>
                                         </div>

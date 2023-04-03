@@ -7,7 +7,7 @@ export default function Home() {
     <div className="home">
       <div class="sc-jVSGNQ sc-dHMioH fhuFH gVlRzR">
         <div class="sc-iKUVsf kpEjRZ">
-            <h1 color="secondary" class="sc-kYPZxB sc-eWnToP dxdeuQ gqGGKb">SeaSwap</h1>
+            <h1 color="secondary" class="sc-kYPZxB sc-eWnToP dxdeuQ gqGGKb">Sea Final</h1>
             <div color="text" class="sc-kYPZxB enMIBb">The #1 AMM and yield farm on Tron Chain.</div>
         </div>
         <div>

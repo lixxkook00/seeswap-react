@@ -26,11 +26,11 @@ export default function Pool() {
             <div className="sc-jcsPjo isoErC">
                 <div className="sc-gJjCVn dvuUIZ">
                     <div style={{padding: '24px'}}>
-                    <div className="sc-kBqmDu kULjnO"> SSG Pool</div>
+                    <div className="sc-kBqmDu kULjnO"> SEF Pool</div>
                     <div style={{marginBottom: '8px', display: 'flex', alignItems: 'center'}}>
                         <div style={{flex: '1 1 0%'}}>
                             <div width="64" height="64" className="sc-bCwfaz cEnPWX">
-                                <img src="./images/farms/btcd-busd.png" alt="SSG" className="sc-iwajpm ikqMKG" />
+                                <img src="./images/farms/btcd-busd.png" alt="SEF" className="sc-iwajpm ikqMKG" />
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ export default function Pool() {
                             <span>0.000</span>0
                         </div>
                     </div>
-                    <div className="sc-fkmfBh kXNAFs">SSG earned</div>
+                    <div className="sc-fkmfBh kXNAFs">SEF earned</div>
                     <div className="sc-knSFqH kCffGv">
                         <button className="sc-dlnjwi dlHUQB" scale="md">Coming Soon</button>
                     </div>
@@ -76,11 +76,11 @@ export default function Pool() {
 
                 <div className="sc-gJjCVn dvuUIZ">
                     <div style={{padding: '24px'}}>
-                    <div className="sc-kBqmDu kULjnO"> SSG Pool</div>
+                    <div className="sc-kBqmDu kULjnO"> SEF Pool</div>
                     <div style={{marginBottom: '8px', display: 'flex', alignItems: 'center'}}>
                         <div style={{flex: '1 1 0%'}}>
                             <div width="64" height="64" className="sc-bCwfaz cEnPWX">
-                                <img src="./images/farms/btcd-busd.png" alt="SSG" className="sc-iwajpm ikqMKG" />
+                                <img src="./images/farms/btcd-busd.png" alt="SEF" className="sc-iwajpm ikqMKG" />
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ export default function Pool() {
                             <span>0.000</span>0
                         </div>
                     </div>
-                    <div className="sc-fkmfBh kXNAFs">SSG earned</div>
+                    <div className="sc-fkmfBh kXNAFs">SEF earned</div>
                     <div className="sc-knSFqH kCffGv">
                         <button className="sc-dlnjwi dlHUQB" scale="md">Coming Soon</button>
                     </div>
@@ -126,11 +126,11 @@ export default function Pool() {
 
                 <div className="sc-gJjCVn dvuUIZ">
                     <div style={{padding: '24px'}}>
-                    <div className="sc-kBqmDu kULjnO"> SSG Pool</div>
+                    <div className="sc-kBqmDu kULjnO"> SEF Pool</div>
                     <div style={{marginBottom: '8px', display: 'flex', alignItems: 'center'}}>
                         <div style={{flex: '1 1 0%'}}>
                             <div width="64" height="64" className="sc-bCwfaz cEnPWX">
-                                <img src="./images/farms/btcd-busd.png" alt="SSG" className="sc-iwajpm ikqMKG" />
+                                <img src="./images/farms/btcd-busd.png" alt="SEF" className="sc-iwajpm ikqMKG" />
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@ export default function Pool() {
                             <span>0.000</span>0
                         </div>
                     </div>
-                    <div className="sc-fkmfBh kXNAFs">SSG earned</div>
+                    <div className="sc-fkmfBh kXNAFs">SEF earned</div>
                     <div className="sc-knSFqH kCffGv">
                         <button className="sc-dlnjwi dlHUQB" scale="md">Coming Soon</button>
                     </div>
