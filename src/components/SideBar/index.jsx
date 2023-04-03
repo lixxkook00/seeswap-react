@@ -34,7 +34,7 @@ export default function SideBar() {
                         <i className={`fa-solid fa-caret-${submenu === '' ? "up" : "down"} sidebar-arrow-down`}></i>
                     </a>
                     <div className={`sidebar-sub ${submenu}`}>
-                        <Link to="/" className="sidebar-sub-item">
+                        <Link to="/swap" className="sidebar-sub-item">
                             Swap
                         </Link>
                         <Link to="/" className="sidebar-sub-item">
@@ -43,7 +43,7 @@ export default function SideBar() {
                     </div>
                 </div>
                 <div className="sidebar-item">
-                    <Link to="/">
+                    <Link to="/farm">
                         <i className="fa-solid fa-tractor"></i>
                         <div className="sidebar-name">
                             Farm
@@ -51,7 +51,7 @@ export default function SideBar() {
                     </Link>
                 </div>
                 <div className="sidebar-item">
-                    <Link to="/">
+                    <Link to="/pool">
                         <i className="fa-solid fa-water"></i>
                         <div className="sidebar-name">
                             Pool

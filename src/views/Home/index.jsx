@@ -4,100 +4,69 @@ import './Home.scss'
 export default function Home() {
 
   return (
-    <div className="swap">
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-3">
-                    <div className="centering h-100">
-                        <img className="swap-img" src="./images/ex-right-bg.png" alt="" />
+    <div className="home">
+      <div class="sc-jVSGNQ sc-dHMioH fhuFH gVlRzR">
+        <div class="sc-iKUVsf kpEjRZ">
+            <h1 color="secondary" class="sc-kYPZxB sc-eWnToP dxdeuQ gqGGKb">SeaSwap</h1>
+            <div color="text" class="sc-kYPZxB enMIBb">The #1 AMM and yield farm on Tron Chain.</div>
+        </div>
+        <div>
+            <div class="sc-ellfGf sc-gLMgcV fCWbvN ffQoEh">
+              <div class="sc-hBMUJo fQeJHI sc-ekA-drt cuAGcR">
+                  <div class="sc-fnVZcZ RBusw">
+                    <h2 color="text" class="sc-gtsrHT sc-fKgJPI kiwDHC ljuLnR">Farms &amp; Staking</h2>
+                    <img src="./images/logo.png" alt="cake logo" width="64" height="64" class="sc-kOokqr jKJekh" />
+                    <div class="sc-btlduw eQhtVu">
+                        <div class="sc-hWZktu feMcpX">Sea to Harvest:</div>
+                        <div color="textDisabled" class="sc-gtsrHT iweUrb" style={{lineHeight: '76px'}}>Locked</div>
                     </div>
-                </div>
-                <div className="col-lg-6">
-                    <div className="centering">
-                        <div className="trade-nav">
-                            <div className="trade-nav-item active">
-                                Swap
-                            </div>
-                            <div className="trade-nav-item">
-                                Liquidity
-                            </div>
+                    <div class="sc-btlduw eQhtVu">
+                        <div class="sc-hWZktu feMcpX">Sea in Wallet:</div>
+                        <div color="textDisabled" class="sc-gtsrHT iweUrb" style={{lineHeight: '54px'}}>Locked</div>
+                    </div>
+                    <div class="sc-kLwonV kAhjsw"><button class="sc-dlnjwi csATfC" width="100%" scale="md">Coming Soon</button></div>
+                  </div>
+              </div>
+              <div class="sc-hBMUJo fQeJHI sc-cApVyb kyeGiI">
+                  <div class="sc-fnVZcZ RBusw">
+                    <h2 color="text" class="sc-gtsrHT sc-fKgJPI kiwDHC ljuLnR">Announcements</h2>
+                    <div>
+                        <div twdiv="yes">
+                          <div class="twitter-timeline twitter-timeline-rendered" style={{display: 'flex', maxWidth: '100%', marginTop: '0px', marginBottom: '0px'}}>
+                            
+                          </div>
                         </div>
                     </div>
-                    <div className="swap-wrapper">
-                        <div className="swap-title">
-                            <div className="swap-text d-flex flex-column">
-                                    <div className="swap-name">
-                                        Exchange
-                                    </div>
-                                    <div className="swap-desc">
-                                        Trade tokens in an instant
-                                    </div>
-                                </div>
-
-                                <div className="swap-title-icon d-flex align-items-center">
-                                    <i className="fa-solid fa-clock-rotate-left"></i>
-                                </div>
-                            </div>
-                        <div className="swap-content w-100">
-                            <div className="swap-block">
-                                <div className="d-flex align-items-center justify-content-between pb-3">
-                                    <div className="swap-block-text">
-                                        From
-                                    </div>
-
-                                    <div className="swap-block-select d-flex align-items-center">
-                                        <div className="swap-block-select-icon">
-                                            <img src="./images/tokens/bnb.png" alt="" />
-                                        </div>
-                                        <div className="swap-block-select-name d-flex align-items-center">
-                                            BNB <i className="fa-solid fa-angle-down"></i>
-                                        </div>
-                                    </div>                                    
-                                </div>
-                                <div className="swap-block-value">
-                                    <input type="text" placeholder='0.0'/>
-                                </div>
-                            </div>
-
-                            <div className="centering">
-                                <div className="swap-icon centering">
-                                    <i className="fa-solid fa-arrow-down"></i>
-                                    <i className="fa-solid fa-arrows-up-down"></i>
-                                </div>
-                            </div>
-
-                            <div className="swap-block">
-                                <div className="d-flex align-items-center justify-content-between pb-3">
-                                    <div className="swap-block-text">
-                                        To
-                                    </div>
-                                    <div className="swap-block-select d-flex align-items-center">
-                                        <div className="swap-block-select-icon">
-                                            {/* <img src="./images/logo.png" alt="" /> */}
-                                        </div>
-                                        <div className="swap-block-select-name d-flex align-items-center">
-                                            Select a currency <i className="fa-solid fa-angle-down"></i>
-                                        </div>
-                                    </div>                                    
-                                </div>
-                                <div className="swap-block-value">
-                                    <input type="text" placeholder='0.0'/>
-                                </div>
-                            </div>
-
-                            <div className="primary-btn swap-btn">
-                                SWAP
-                            </div>
-                        </div>
+                  </div>
+              </div>
+            </div>
+            <div class="sc-ellfGf sc-gLMgcV fCWbvN ffQoEh">
+              <div class="sc-hBMUJo fQeJHI sc-gpEJdM faiEUM">
+                  <div class="sc-fnVZcZ RBusw">
+                    <h2 color="text" class="sc-gtsrHT sc-fKgJPI kiwDHC ljuLnR">Stats</h2>
+                    <div class="sc-cxxZvF dhUsSv">
+                        <div font-size="14px" color="text" class="sc-gtsrHT dUrmYC">Token Name</div>
+                        Sea Swap Global
                     </div>
-                </div>
-                <div className="col-lg-3">
-                    <div className="centering h-100">
-                        <img className="swap-img" src="./images/ex-left-bg.png" alt="" />
+                    <div class="sc-cxxZvF dhUsSv">
+                        <div font-size="14px" color="text" class="sc-gtsrHT dUrmYC">Token Symbol</div>
+                        Sea
                     </div>
-                </div>
+                    <div class="sc-cxxZvF dhUsSv">
+                        <div font-size="14px" color="text" class="sc-gtsrHT dUrmYC">Total Supply</div>
+                        1,000,000,000
+                    </div>
+                  </div>
+              </div>
+              <div class="sc-hBMUJo fQeJHI sc-bnFVBq bAbBXY">
+                  <div class="sc-fnVZcZ RBusw">
+                    <h2 color="text" class="sc-gtsrHT sc-fKgJPI kiwDHC dBUfrw">Total Value Locked (TVL)</h2>
+                    <div height="66" class="sc-dPaNzc sc-bBjRSN eBvcDa inBDfO"></div>
+                  </div>
+              </div>
             </div>
         </div>
+      </div>
     </div>
   )
 }
