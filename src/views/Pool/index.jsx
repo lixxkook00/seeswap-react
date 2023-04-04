@@ -8,7 +8,7 @@ export default function Pool() {
             <div className="sc-jVSGNQ sc-fnebDD fhuFH iSRtDR">
                 <div className="sc-jHcXXw sc-bQCEYZ eOSeYq dWrJav">
                     <div className="sc-jHcXXw sc-bQCEYZ eKjLRp caxFtz">
-                    <h1 color="secondary" className="sc-kYPZxB sc-eWnToP dxdeuQ fjrvLg">Shark Pools</h1>
+                    <h1 color="secondary" className="sc-gtsrHT sc-fKgJPI ggmOKg iyoHHq">Shark Pools</h1>
                     <h2 color="text" className="sc-kYPZxB sc-eWnToP iA-DwzR cCsnES">Simply stake tokens to earn.</h2>
                     <h2 color="text" className="sc-kYPZxB sc-eWnToP iA-DwzR cCsnES">High APR, low risk.</h2>
                     </div>

@@ -71,7 +71,7 @@ export default function Nav() {
                     <a aria-label="Link to profile" href="/profile">
                         {/* <img src="/images/profile.png" /> */}
                     </a>
-                    <div className="sc-geBCVM fDMxsN"></div>
+                    {/* <div className="sc-geBCVM fDMxsN"></div> */}
                 </div>
             </div>
         </nav>

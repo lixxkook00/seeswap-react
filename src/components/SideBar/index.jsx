@@ -16,7 +16,7 @@ export default function SideBar() {
             <div className="overlay" onClick={() => dispatch(hiddenSideBar())}></div>
             <div className="sidebar-content">
                 <div className="sidebar-item">
-                    <Link to="/">
+                    <Link to="/" onClick={() => dispatch(hiddenSideBar())}>
                         <i className="fa-solid fa-house"></i>
                         <div className="sidebar-name">
                             Home
@@ -34,16 +34,16 @@ export default function SideBar() {
                         <i className={`fa-solid fa-caret-${submenu === '' ? "up" : "down"} sidebar-arrow-down`}></i>
                     </a>
                     <div className={`sidebar-sub ${submenu}`}>
-                        <Link to="/swap" className="sidebar-sub-item">
+                        <Link to="/swap" className="sidebar-sub-item" onClick={() => dispatch(hiddenSideBar())}>
                             Swap
                         </Link>
-                        <Link to="/" className="sidebar-sub-item">
+                        <Link to="/" className="sidebar-sub-item" onClick={() => dispatch(hiddenSideBar())}>
                             Liquidity
                         </Link>
                     </div>
                 </div>
                 <div className="sidebar-item">
-                    <Link to="/farm">
+                    <Link to="/farm" onClick={() => dispatch(hiddenSideBar())}>
                         <i className="fa-solid fa-tractor"></i>
                         <div className="sidebar-name">
                             Farm
@@ -51,7 +51,7 @@ export default function SideBar() {
                     </Link>
                 </div>
                 <div className="sidebar-item">
-                    <Link to="/pool">
+                    <Link to="/pool" onClick={() => dispatch(hiddenSideBar())}>
                         <i className="fa-solid fa-water"></i>
                         <div className="sidebar-name">
                             Pool

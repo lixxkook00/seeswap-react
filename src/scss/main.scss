@@ -108,3 +108,43 @@ a:hover{
     width: 100%;
 }
 
+// MODAL
+.modal.show .modal-dialog{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.modal-content{
+    border-radius: 20px;
+    border-color: #1777BC;
+}
+
+.primary-modal{
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+
+    // &-header,
+    // &-content{
+    //     padding: 10px;
+    // }
+
+    &-close{
+        cursor: pointer;
+        
+
+        &:hover{
+            transition: all 1s ease;
+            transform: rotate(360deg);
+        }
+    }
+
+    &-header{
+        color: #1777BC;
+        font-weight: 700;
+        font-size: 20px;
+        border-bottom: 1px solid #1777BC;
+        padding: 20px;
+    }
+}
