@@ -6,6 +6,7 @@ import Farm from '../views/Farm'
 import FarmHistory from '../views/FarmHistory'
 import Pool from '../views/Pool'
 import PoolHistory from '../views/PoolHistory'
+import Liquidity from '../views/Liquidity'
 
 export default function Routers() {
   return (
@@ -22,6 +23,8 @@ export default function Routers() {
         <Route path="/pool" element={<Pool />} />
 
         <Route path="/pool-history" element={<PoolHistory />} />
+
+        <Route path="/liquidity" element={<Swap />} />
 
       </Routes>
     </div>

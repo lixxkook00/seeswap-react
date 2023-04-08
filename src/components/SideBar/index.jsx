@@ -37,7 +37,7 @@ export default function SideBar() {
                         <Link to="/swap" className="sidebar-sub-item" onClick={() => dispatch(hiddenSideBar())}>
                             Swap
                         </Link>
-                        <Link to="/" className="sidebar-sub-item" onClick={() => dispatch(hiddenSideBar())}>
+                        <Link to="/liquidity" className="sidebar-sub-item" onClick={() => dispatch(hiddenSideBar())}>
                             Liquidity
                         </Link>
                     </div>
@@ -67,12 +67,15 @@ export default function SideBar() {
                     </div>
                 </div>
                 <div className="social">
-                    <div className="social-item">
+                    <a target="_blank" href="https://t.me/SeaFinanceChannel" className="social-item">
                         <i className="fa-brands fa-telegram"></i>
-                    </div>
-                    <div className="social-item">
+                    </a>
+                    <a target="_blank" href="https://t.me/seafifinancegroup" className="social-item">
+                        <i className="fa-brands fa-telegram"></i>
+                    </a>
+                    <a target="_blank" href="https://twitter.com/FianceSeafi" className="social-item">
                         <i className="fa-brands fa-twitter"></i>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

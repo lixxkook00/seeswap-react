@@ -7,7 +7,7 @@ export default function Home() {
     <div className="home">
       <div className="sc-jVSGNQ sc-dHMioH fhuFH gVlRzR">
         <div className="sc-iKUVsf kpEjRZ">
-            <h1 color="secondary" className="sc-kYPZxB sc-eWnToP dxdeuQ gqGGKb">Sea Final</h1>
+            <h1 color="secondary" className="sc-kYPZxB sc-eWnToP dxdeuQ gqGGKb">Sea Finance</h1>
             <div color="text" className="sc-kYPZxB enMIBb">The #1 AMM and yield farm on Tron Chain.</div>
         </div>
         <div>
@@ -50,11 +50,11 @@ export default function Home() {
                     </div>
                     <div className="sc-cxxZvF dhUsSv">
                         <div fontSize="14px" color="text" className="sc-gtsrHT dUrmYC">Token Symbol</div>
-                        Sea
+                        SEF
                     </div>
                     <div className="sc-cxxZvF dhUsSv">
                         <div fontSize="14px" color="text" className="sc-gtsrHT dUrmYC">Total Supply</div>
-                        1,000,000,000
+                        450.000.000 SEF
                     </div>
                   </div>
               </div>
